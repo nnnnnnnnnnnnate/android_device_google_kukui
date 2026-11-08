@@ -1,10 +1,10 @@
 # Kodama sku16 LineageOS 23.2 release — SHA-256 checksums
-# 校验方法：在包含 lineage-23.2-kukui-20261105.img / .zip 两个大文件的目录
-# （即 kodama-release/ 的上级目录）执行：  sha256sum -c kodama-release/SHA256SUMS.txt
-# 路径按本文件所列相对路径（以该上级目录为基准）。
+# 校验方法：把镜像/zip 和 kodama-release/ 放在同一目录，然后执行：
+#   sha256sum -c --ignore-missing kodama-release/SHA256SUMS.txt
+# 只下载 zip 时，未解压的 img 行会被跳过。
 
-f85b3b7a855badf6319d32bb28eff21381d73c2a1a837d7a18ee1ebe5fa2ae1a  lineage-23.2-kukui-20261105.img
-d95aac1a88439325667ea047e4512c231b709a5acbe3ffab9e368e09a8598ce9  lineage-23.2-kukui-20261105.zip
+1e0569123974e44195356a9824b69a757cb1a79b7653a94ee3bb3c7b6e6a28ed  lineage-23.2-kukui-20261108.img
+9012d0919f8360470c09503c132ed5352c3ffe79f95bd12b7d656ec248dca6ce  lineage-23.2-kukui-20261108.zip
 0d476e6455cdbe848e7a149a59ce54826ff37af4cf75caa1393d670591434f88  kodama-release/idc/hid-over-i2c_04F3_2ABE.idc
 0d476e6455cdbe848e7a149a59ce54826ff37af4cf75caa1393d670591434f88  kodama-release/idc/hid-over-i2c_04F3_2ABE_Stylus.idc
 c832cf9c3684fda0399b52bd0b1ad3bc6f236e6f2b57ec3105e970361c0c9f50  kodama-release/fix-touch.sh
